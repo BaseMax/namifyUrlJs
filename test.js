@@ -14,3 +14,8 @@ function test(output, expect) {
 	}
 	i++
 }
+
+test(namifyUrl("https://google.com/"), "google.com")
+test(namifyUrl("http://www.google.com/"), "google.com")
+
+console.log("[Success Test]: "+ok + "\n[Error Test]: "+er)
