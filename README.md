@@ -4,7 +4,7 @@ namifyUrl is tiny function to normalize a URL address string for you.
 
 ## Usage
 
-```
+```js
 const namifyUrl= require(".")
 
 namifyUrl("https://google.com/")
