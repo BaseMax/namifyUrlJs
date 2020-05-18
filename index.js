@@ -1,3 +1,5 @@
+// Max Base
+// https://github.com/BaseMax/namifyUrlJs
 'use strict'
 const namifyUrl = input => {
 	return input
